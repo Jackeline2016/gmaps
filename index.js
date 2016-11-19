@@ -1,6 +1,6 @@
 var express=require('express');
 var app=express();
-var htpp=required('http').server(app);
+var htpp=required('http').Server(app);
 //usando socket io
 var io=required('socket.io')(http);
 
